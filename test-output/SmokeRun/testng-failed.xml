@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeRun]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Results(failed)">
+    <classes>
+      <class name="myTestProject1.test.registerTest">
+        <methods>
+          <include name="openChrome"/>
+          <include name="registerWithValidData"/>
+          <include name="closeChrome"/>
+        </methods>
+      </class> <!-- myTestProject1.test.registerTest -->
+    </classes>
+  </test> <!-- Results(failed) -->
+</suite> <!-- Failed suite [SmokeRun] -->
